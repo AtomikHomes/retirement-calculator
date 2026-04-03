@@ -343,7 +343,7 @@ with st.sidebar:
         "Stock mean return",
         min_value=-0.20,
         max_value=0.30,
-        value=0.07,
+        value=0.1,
         step=0.01,
         format="%.2f",
     )
