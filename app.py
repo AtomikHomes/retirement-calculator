@@ -272,7 +272,7 @@ with st.sidebar:
     monthly_expenses = st.number_input(
         "Monthly expenses ($)",
         min_value=0.0,
-        value=10_000.0,
+        value=5_000.0,
         step=250.0,
     )
 
