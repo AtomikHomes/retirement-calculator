@@ -226,6 +226,9 @@ def run_monte_carlo_simulation(
 # Sidebar inputs
 # =========================
 st.title("Retirement Planning Calculator")
+st.markdown(
+    "##### by [Millionaire Manifesto Substack](https://millionairemanifesto.substack.com/)"
+)
 st.caption(
     "Explore deterministic return scenarios and Monte Carlo outcomes for retirement spending and portfolio sustainability."
 )
