@@ -254,13 +254,13 @@ with st.sidebar:
     non_retirement_savings = st.number_input(
         "Non-retirement savings ($)",
         min_value=0.0,
-        value=730_000.0,
+        value=500_000.0,
         step=10_000.0,
     )
     retirement_savings = st.number_input(
         "Retirement savings ($)",
         min_value=0.0,
-        value=2_400_000.0,
+        value=1_000_000.0,
         step=10_000.0,
     )
     monthly_income = st.number_input(
